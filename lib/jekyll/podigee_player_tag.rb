@@ -5,7 +5,8 @@ module Jekyll
       page = context.registers[:page]
 
       audio = {}
-      download_url = config["download_url"] || config["url"] + "/episodes"
+      # download_url can be overridden by page["download_url"]
+      download_url = page["download_url"] || config["download_url"] || config["url"] + "/episodes"
       page["audio"].each { |key, value| audio[key] = download_url + "/" + value}
 
       { options: { theme: "default",
