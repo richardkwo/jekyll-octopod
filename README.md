@@ -1,8 +1,9 @@
 # jekyll-octopod
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-octopod.svg)](https://badge.fury.io/rb/jekyll-octopod)
+Customized source. Install by
 
-<img align="right" src="assets/img/logo.jpg" alt="logo">
-A podcast publishing extension for the static site generator [Jekyll](https://jekyllrb.com/)
+```shell
+$ gem build jekyll-octopod.jemspec
+$ gem install ./jekyll-octopod.0.9.0.gem
+```
 
-jekyll-octopod has now it's own [Project Site](https://jekyll-octopod.github.io/)!
